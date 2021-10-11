@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm install`
 Install all of dependencies 
 
-### `npm react-icons` `npm axios`
+### `npm i  react-icons` `npm i axios`
 
 Dependencies who you can install, if problems exists
 
