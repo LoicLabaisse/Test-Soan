@@ -6,6 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+Install all of dependencies 
+
+### `npm react-icons` `npm axios`
+
+Dependencies who you can install, if problems exists
+
 ### `npm start`
 
 Runs the app in the development mode.\
