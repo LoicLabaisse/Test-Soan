@@ -1,0 +1,90 @@
+.unpayed__content {
+    width: 100%;
+  }
+  
+  .list__item {
+    display: flex;
+    justify-content: space-around;
+  }
+  .list__item .second__part:nth-child(1){
+      width: 22%;
+  }
+  .first__part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+  }
+  .title__part {
+    display: flex;
+    flex-direction: column;
+  }
+  .title__part h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+ 
+  .second__part {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .second__part h3{
+      display: flex;
+      align-items: center;
+  }
+  .second__part span {
+      color: #0D9674;
+  }
+  .unpayed__icon{
+    color: #0D9674;
+    padding-right: 5px;
+}
+  
+.third__part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .third__part span {
+    text-decoration: line-through;
+  }
+  .third__part p {
+    margin-bottom: 0;
+  }
+  .unpayed__button{
+      display: flex;
+      justify-content: flex-end;
+  }
+  .paiementButton{
+    background-color:#26C29B ;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 20px;
+
+  }
+  .paiementButton:hover{
+    background-color: #0D9674;
+  }
+
+  /*======= Show Modal ===========*/
+  .unShowModal{
+      display: none;
+  }
+  .showModal{
+      display: block;
+  }
+  
